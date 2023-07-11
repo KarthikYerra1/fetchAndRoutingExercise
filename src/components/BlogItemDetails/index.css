@@ -1,0 +1,37 @@
+.blog-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.blog-item-details-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.blog-item-heading {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.title-pic {
+  height: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .title-pic {
+    height: 400px;
+  }
+}
+
+.blog-description {
+  color: #8e8e8e;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
